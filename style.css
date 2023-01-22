@@ -1,12 +1,16 @@
 @charset "UTF-8";
 
-
 *{
     margin: 0px;
     padding: 0px;
 }
 
 body{
+    background-color: rgb(209, 209, 209);
+}
+
+
+main{
     display: flex;
     align-items: center;
     place-content: center;
@@ -14,18 +18,80 @@ body{
 
 }
 
-
-div.produto-info{
-    padding: 10px;
-    background-color: lightgray;
+.all{   /*Se refere aos dois conteiners*/
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    
 }
 
+
 #produto{
-    display: inline;
-    background-color: red;
+    border-radius: 15px 0px 0px 15px;
+    background: red url("img/perfume.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    filter: contrast(100%);
 }
 
 #info{
-    display: inline;
-    background-color: blue;
+    border-radius: 0px 15px 15px 0px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+#info > #perfume{
+    padding: 15px 0px 0px 17px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
+
+#info > h1{
+    padding: 13px 0px 20px 17px;
+}
+
+#info > #descricao{
+    padding: 2px 0px 0px 17px;
+}
+
+#info > .preco{
+    display: flex;
+
+}
+
+#info > .preco > *{
+    margin-top: 35px;
+    padding-left: 17px;
+
+}
+
+#info > .preco > h2{
+    color: rgb(204, 173, 81);
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}   
+
+
+#info > .preco > h4{
+    color: black;
+    text-decoration: line-through;
+    opacity: 40%;
+}
+
+
+#info > #botao{
+    padding: 20px 0px 0px 17px;
+}
+
+#info > #botao > button{
+    margin-left: 28% ;
+    padding: 10px 40px;
+    text-decoration: none;
+    background: rgb(204, 173, 81);
+    border: none;
+    border-radius: 10px;
 }
