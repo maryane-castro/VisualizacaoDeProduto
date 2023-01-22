@@ -45,7 +45,7 @@ main{
 #info > #perfume{
     padding: 15px 0px 0px 17px;
     font-weight: lighter;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
 }
 
 
@@ -63,7 +63,7 @@ main{
 }
 
 #info > .preco > *{
-    margin: 35px 0px 30px 0px;
+    margin: 35px 0px 35px 0px;
     padding-left: 17px;
     
 
@@ -94,9 +94,19 @@ main{
 #info > #botao > button{
     padding: 10px 40px;
     text-decoration: none;
-    background: rgb(204, 173, 81);
+    background: rgb(206, 144, 0);
+    color: white;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#info > #botao > button:hover{
+    background: rgb(152, 107, 0);
+    color: white;
+
+
 }
 
 
@@ -105,11 +115,15 @@ main{
 }
 
 
-@media (max-width:680px){
+
+
+
+/*MEDIA QUERY 810PX*/
+@media (max-width:810px){
     main{
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 97vh;
     }
 
     
@@ -137,18 +151,18 @@ main{
         padding: 10px 0px 0px 17px;
         font-weight: lighter;
         letter-spacing: 4px;
-        font-size: 10px;
+        font-size: 15px;
     }
     
     
     #info > h1{
-        padding:5px 0px 5px 17px;
+        padding:5px 0px 5px px;
         font-size: 20px;
     }
     
     #info > #descricao{
         padding: 2px 0px 0px 17px;
-        font-size: 14px;
+        font-size: 13px;
     }
     
     #info > .preco{
@@ -157,7 +171,7 @@ main{
     }
     
     #info > .preco > *{
-        margin: 20px 0px 10px 0px;
+        margin: 10px 0px 10px 10px;
         padding-left: 17px;
     
     }
@@ -175,5 +189,37 @@ main{
         text-decoration: line-through;
         opacity: 40%;
     }
+
+
+/*botao*/
+    #info > #botao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #info > #botao > button{
+        margin: 3px;
+        padding: 8px 30px;
+        text-decoration: none;
+        background: rgb(204, 173, 81);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+
+
+    /*
+    #info > #botao > button:hover{
+        background: rgb(152, 107, 0);
+        color: white;
+    
+    
+    }*/
+
+
 
 }
