@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    place-content: center;
+    height: 100vh;
+
+}
+
+
+div.produto-info{
+    padding: 10px;
+    background-color: lightgray;
+}
+
+#produto{
+    display: inline;
+    background-color: red;
+}
+
+#info{
+    display: inline;
+    background-color: blue;
+}
