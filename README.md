@@ -1,13 +1,21 @@
+<h1 align="center">Cartão-Venda de Perfume</h1>
+<hr>
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
+</p>
 
-![Badge Versão 1.0](http://img.shields.io/static/v1?label=STATUS&message=VERSÃO%201.0&color=GREEN&style=for-the-badge)
 
-<h1> Componente do cartão de visualização do produto.</h1>
-     acessar o projeto:
+<h2>Sobre</h2>
+<p>Projeto simples em HTML/CSS para melhorar minhas habilidade em media query.</p>
+
+
+<h2>Tecnológias Usadas</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+
+
+
+ acessar o projeto:
      https://maryane-castro.github.io/VisualizacaoDeProduto/
-   
-
-<h2>O que foi utillizado?</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
